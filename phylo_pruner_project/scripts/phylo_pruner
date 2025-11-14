@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+"""Command-line interface for phylo_pruner."""
+
+from phylo_pruner.main import build_parser
+
+
+def main() -> None:
+    parser = build_parser()
+    args = parser.parse_args()
+    args.func(args)
+
+
+if __name__ == "__main__":
+    main()
