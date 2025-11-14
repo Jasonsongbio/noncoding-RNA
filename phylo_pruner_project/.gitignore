@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.eggs/
+*.sqlite
+*.log
+*.nwk
+.idea/
+.vscode/
+.DS_Store
